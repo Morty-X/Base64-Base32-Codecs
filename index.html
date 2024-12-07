@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>肖振洋-Base64&Base32</title>
+    <link rel="stylesheet" href="src/style/index.css">
+</head>
+
+<body>
+    <div class="form">
+        <h1><span>Base64 & Base32</span>Base64 & Base32 在线编码解码</h1>
+        <p>请输入要进行 Base64 / Base32 编码或解码的字符</p>
+        <textarea name="base64Input" id="base64Input"></textarea>
+        <div class="btns">
+            <button id="encode">编码 (Base64)</button>
+            <button id="decode">解码 (Base64)</button>
+            <button id="encodePlus">编码 (百家姓版 Base64)</button>
+            <button id="decodePlus">解码 (百家姓版 Base64)</button>
+            <button id="encode32">编码 (Base32)</button>
+            <button id="decode32">解码 (Base32)</button>
+            <button id="exchange">↕ 交换</button>
+        </div>
+        <p>Base64 & Base32 编码或解码的结果：</p>
+        <textarea name="base64Result" id="base64Result"></textarea>
+    </div>
+    <script src="src/js/base64.js"></script>
+    <script src="src/js/base32.js"></script>
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
